@@ -1,0 +1,24 @@
+ADMITTIME - The hospital admission time 【入院时间】
+DISCHTIME - The hospital discharge time 【出院时间】
+DEATHTIME - The date of death of the patient if they died within the hospital【病人在医院死亡的日期】
+ADMISSION_TYPE - The type of admission: ELECTIVE, EMERGENCY, NEWBORN or URGENT (note that the NEWBORN value here does not perfectly identify newborns) 
+【入院类型：可选、紧急、新生儿或紧急（请注意，此处的新生儿值无法完全识别新生儿）】
+ADMISSION_LOCATION - The location of the patient prior to hospital admission 【入院前病人的位置】
+DISCHARGE_LOCATION - The location of the patient after hospital discharge 【出院后病人的位置】
+INSURANCE - The patient’s type of medical insurance 【病人的医疗保险类型】
+LANGUAGE - The patient’s primary language 【患者的主要语言】
+RELIGION - The patient’s stated religion 【病人的既定宗教】
+MARITAL_STATUS - The patient’s marital status 【病人的婚姻状况】
+ETHNICITY - The patient’s stated ethnicity 【病人的种族】
+DIAGNOSIS - A short description of the reason for the patient’s admission 【病人入院原因的简短描述】
+ICU level data: ICUSTAY_ID
+
+DBSOURCE - The ICU database from which the patient exists in 【患者存在的ICU数据库】
+FIRST_CAREUNIT - The first unit that cared for the patient (all ICUs except NWARD) 【第一个照顾病人的单位（除 NWARD 外的所有 I库斯）】
+LAST_CAREUNIT - The last care unit that cared for the patient (all ICUs except NWARD) 【最后一个护理病人的护理单位（除 NWARD 外的所有 I库斯）】
+FIRST_WARDID - An integer representing the first physical location of the patient 【表示患者第一个物理位置的整数】
+LAST_WARDID - An integer representing the last physical location of the patient 【表示患者最后物理位置的整数】
+INTIME - Time entered the ICU 【进入 ICU 的时间】
+OUTTIME - Time left the ICU 【离开 ICU时间】
+LOS - The patient’s ICU length of stay 【ICU患者的住院时间】
+
