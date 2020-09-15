@@ -1,3 +1,8 @@
+一 患者级别数据：SUBJECT_ID（"患者"表中数据库中可用的静态数据列表）
+
+
+
+
 ADMITTIME - The hospital admission time 【入院时间】
 DISCHTIME - The hospital discharge time 【出院时间】
 DEATHTIME - The date of death of the patient if they died within the hospital【病人在医院死亡的日期】
@@ -12,6 +17,11 @@ MARITAL_STATUS - The patient’s marital status 【病人的婚姻状况】
 ETHNICITY - The patient’s stated ethnicity 【病人的种族】
 DIAGNOSIS - A short description of the reason for the patient’s admission 【病人入院原因的简短描述】
 ICU level data: ICUSTAY_ID
+
+
+
+ICU level data: ICUSTAY_ID 【ICU 数据库，仅包含患者 ICU 住院期间的信息】
+
 
 DBSOURCE - The ICU database from which the patient exists in 【患者存在的ICU数据库】
 FIRST_CAREUNIT - The first unit that cared for the patient (all ICUs except NWARD) 【第一个照顾病人的单位（除 NWARD 外的所有 I库斯）】
